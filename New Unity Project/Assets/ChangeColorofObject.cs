@@ -13,12 +13,18 @@ public class ChangeColorofObject : MonoBehaviour
     }
     void Update()
     {
+		
+
 
     }
 	
 	private void OnMouseDown() {
-		GameObject go = GameObject.Find(this.GetComponent<MeshRenderer>().name);
-		go.GetComponent<MeshRenderer>().material.color = GlobalColor.paintColor;
+		GlobalSettings.lastSelectedObjectName = this.GetComponent<MeshRenderer>().name;
+		if (GlobalSettings.isInTransformMode == false) {
+			GameObject go = GameObject.Find(this.GetComponent<MeshRenderer>().name);
+			go.GetComponent<MeshRenderer>().material.color = GlobalSettings.paintColor;
+			
+		}
 	}
 	
 	private void OnMouseExit() {

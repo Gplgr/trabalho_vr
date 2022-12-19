@@ -349,11 +349,12 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/ChangeColorofObject.cs"
-"Assets/GlobalColor.cs"
+"Assets/GlobalSettings.cs"
 "Assets/MouseLook.cs"
-"Assets/PaintRed.cs"
 "Assets/PlayerMovement.cs"
 "Assets/Scripts/ChangeColor.cs"
+"Assets/SelectColor.cs"
+"Assets/ToggleScript.cs"
 -langversion:9.0
 
 /deterministic
