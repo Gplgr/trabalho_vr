@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 4dc51f9f764f48f47a44adeed6ceee1c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _pauseMenu: {instanceID: 0}
+  - _pausebutton: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
